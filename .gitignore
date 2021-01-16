@@ -10,4 +10,4 @@
 .idea/
 .byebug_history
 /fitting
-logfile.log
+/log

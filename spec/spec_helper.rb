@@ -8,3 +8,5 @@ SimpleCov.start
 require 'json-schema'
 require 'byebug'
 require 'fitting'
+
+FileUtils.rm_r Dir.glob("log/*"), :force => true
