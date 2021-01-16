@@ -2,7 +2,8 @@ require 'fitting/report/console'
 
 module Fitting
   class Report
-    def initialize(tsts, prfixes)
+    def initialize(tsts, prfixes, lgger)
+      @logger = lgger
       @tests = tsts
       @prefixes = prfixes
     end
@@ -15,7 +16,12 @@ module Fitting
       @tests
     end
 
+    def logger
+      @logger
+    end
+
     def console
+      logger.info("Program started")
       prefixes.join(tests)
 
       prefixes.to_a.map do |prefix|

@@ -1,0 +1,3 @@
+prefixes:
+  - name: /api/v1
+    skip: true

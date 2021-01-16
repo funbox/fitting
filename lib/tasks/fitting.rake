@@ -14,7 +14,8 @@ namespace :fitting do
   task :report do
     report = Fitting::Report.new(
       Fitting::Report::Tests.new_from_config('fitting_tests/*.json'),
-      Fitting::Report::Prefixes.new('.fitting.yml')
+      Fitting::Report::Prefixes.new('.fitting.yml'),
+      Logger.new(STDOUT)
     )
 
     console = report.console
