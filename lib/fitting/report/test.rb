@@ -1,5 +1,5 @@
 module Fitting
-  module Report
+  class Report
     class Test
       def initialize(test)
         @test = test

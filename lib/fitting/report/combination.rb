@@ -1,5 +1,5 @@
 module Fitting
-  module Report
+  class Report
     class Combination
       def initialize(json_schema:, type:, combination:)
         @json_schema = json_schema

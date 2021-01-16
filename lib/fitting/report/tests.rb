@@ -1,7 +1,7 @@
 require 'fitting/report/test'
 
 module Fitting
-  module Report
+  class Report
     class Tests
       def initialize(tests)
         @tests = tests

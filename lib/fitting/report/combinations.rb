@@ -1,5 +1,5 @@
 module Fitting
-  module Report
+  class Report
     class Combinations
       def initialize(combinations)
         @combinations = combinations

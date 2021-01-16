@@ -1,7 +1,7 @@
 require 'fitting/report/actions'
 
 module Fitting
-  module Report
+  class Report
     class Prefix
       def initialize(name, tomogram_json_path, skip = false)
         @name = name

@@ -1,7 +1,7 @@
 require 'fitting/report/responses'
 
 module Fitting
-  module Report
+  class Report
     class Action
       def initialize(action)
         @action = action

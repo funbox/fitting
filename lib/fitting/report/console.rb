@@ -1,5 +1,5 @@
 module Fitting
-  module Report
+  class Report
     class Console
       def initialize(tests_without_prefixes, prefixes_details)
         @tests_without_prefixes = tests_without_prefixes

@@ -1,7 +1,7 @@
 require 'fitting/report/action'
 
 module Fitting
-  module Report
+  class Report
     class Actions
       def initialize(prefix, tomogram_json_path)
         actions = Tomograph::Tomogram.new(

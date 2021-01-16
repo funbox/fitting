@@ -1,7 +1,7 @@
 require 'fitting/report/prefix'
 
 module Fitting
-  module Report
+  class Report
     class Prefixes
       def initialize(config_path)
         @prefixes = []

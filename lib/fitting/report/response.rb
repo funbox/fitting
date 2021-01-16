@@ -5,7 +5,7 @@ require 'fitting/report/combinations'
 require 'fitting/report/combination'
 
 module Fitting
-  module Report
+  class Report
     class Response
       def initialize(response)
         @response = response
